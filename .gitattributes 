@@ -1,0 +1,2 @@
+# to change language of repo to Javascript
+*.gs linguist-language=Javascript
