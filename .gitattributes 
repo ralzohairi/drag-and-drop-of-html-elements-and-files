@@ -1,2 +1,2 @@
-# to change language of repo to Javascript
-*.gs linguist-language=Javascript
+# to change language of repo from CSS to Javascript
+*.css linguist-language=Javascript
