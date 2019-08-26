@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag & Drop Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <p class="title"> Drag the file to the <span class="pink-border"> <span class="pink">Pink</span> Square</span>
+    </p>
+
+    <div id="drop-zone" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+        <p class="file-dragging-title">Drag A File Here...</p>
+        <p id="file-name"></p>
+    </div>
+    <script src="js/drag-and-drop.js"></script>
+</body>
+
+</html>
